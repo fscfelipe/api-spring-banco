@@ -25,6 +25,8 @@ public class Conta {
     @Column(name = "saldo")
     private String saldo;
 
+    public Conta(){}
+
     public Conta(String numeroConta){
         this.numeroConta = numeroConta;
     }
