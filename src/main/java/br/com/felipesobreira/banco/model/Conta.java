@@ -31,10 +31,11 @@ public class Conta {
         this.numeroConta = numeroConta;
     }
 
-    public Conta(String usuario, String senha, String numeroConta){
+    public Conta(String usuario, String senha, String numeroConta, String saldo){
         this.usuario = usuario;
         this.senha = senha;
         this.numeroConta = numeroConta;
+        this.saldo = saldo;
     }
 
 }
